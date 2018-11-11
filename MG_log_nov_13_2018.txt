@@ -1944,4 +1944,51 @@ o Dehaene argues that too many neuroscientists ignore the importance of
     + Our stream of consciousness originates from random spikes in activity,
       which are sculpted and influenced by synapes created during our maturation 
       and education
+
+A Catalog of the Unconscious
+
+o GNWT can help to provide a taxonomy of the unconscious (which as mentioned
+  before, describes a large majority of the brain's operations)
+  - Inattentional blindness (such as the gorilla, or being able to ignore the
+    ticking of a clock when focused on another task) is categorized as 
+    preconscious
+    + Preconscious information is encoded by an assembly of neurons and could
+      be conscious at any time, if attended to, but it isn't
+      - The neuronal silencing that occurs in conscious states (which determines
+        what the current content is and is not) prevents us from seeing two 
+        things at once, creating a bottleneck within the higher centers of the 
+        cortex, but not precluding activation of early sensory areas.
+        + Preconscious information is temporarily stored in transient memory 
+          stores outside the workspace, where it slowly decays (or can be 
+          brought to consciousness, causing the experience to be after the fact,
+          as in attentional blink)
+  - An image flashed so briefly or weakly that we can't see it, but induces 
+    detectable brain activity, can cause the subliminal state
+    + The subliminal state describes situations where the incoming sensory 
+      wave dies out before the "tsunami" of waves of global ignition can occur
+      - Unlike with preconscious stimuli, subliminal stimulus will never become
+        conscious, no matter how hard we try
+  - The automated functions we perform without thinking, such as breathing and
+    blinking, fall under a third category: disconnected patterns
+    MG> Dehaene says that these operations cannot fall under preconscious 
+        as no amount of attention can bring it to mind. But is it not the case 
+        that we can control our breathing and blinking if we so choose? I have
+        in many instances become aware of my own blinking, and then for the next 
+        few minutes had to keep manually blinking until my mind became occupied 
+        with something else and my unconscious took over again. This is not to 
+        say that I think these operations should fall under the preconscious 
+        state, but that Dehaene perhaps should have been more careful with his 
+        words.
+    + The data related to blood CO2 levels is stored in brain stem neurons, and
+      their firing patterns cannot reach the rest of the cortex, and we can't 
+      be aware of them. The only way to make such specialized neuronal circuits
+      that lack the connections to bring them to awareness conscious is to
+      reach them through another sensory modality. In the case of breathing,
+      we become aware of our breathing indirectly, through attending to chest
+      movements.
+      MG> It appears I was mistaken in my last comment, and that we really can't
+          become aware of our own breathing, but rather can control the related 
+          movement of our chests. I would assume that when we become "aware" of
+          our blinking, it must also be through a separate pathway than that 
+          which usually controls our blinking.
 ****************** END Dehaene's book: Consciousness and the Brain ********
