@@ -1921,4 +1921,27 @@ o Spontaneous neuronal activity also emerged in the simulation- neurons would
     + Both in the real brain and Dehaene's model, random activity can explain
       why the same stimulus sometimes can cause ignition, and sometimes causes
       just a trickle of activity
+
+Darwin in the Brain
+
+o Dehaene argues that too many neuroscientists ignore the importance of 
+  spontaneous activity, instead adhering to the reflex arc model, which depicts
+  the brain as merely an input-output device that transfers data from our 
+  senses to our muscles
+  - Dehaene says this is wrong, as our brain is never submitted to its 
+    environment but generates its own activity. 
+    + "During brain development, relevant activity patterns are preserved, while 
+      inappropriate ones are weeded out" in a Darwinian selection process
+  - Dehaene contends that spontaneous fluctuating activity patterns allow 
+    us to generate new plans, try them out, and change them
+    + This generation of spontaneous activity is a source of diversity 
+      - Although its effects are great, the "generator of diversity" is a
+        property of neurons- thermal noise impacts our molecules, which 
+        contributes to the random release of neurotransmitters
+      - The connections linking neurons into columns shape the random spikes
+        of activity into assemblies and circuits until a global pattern emerges,
+        corresponding with our thoughts
+    + Our stream of consciousness originates from random spikes in activity,
+      which are sculpted and influenced by synapes created during our maturation 
+      and education
 ****************** END Dehaene's book: Consciousness and the Brain ********
