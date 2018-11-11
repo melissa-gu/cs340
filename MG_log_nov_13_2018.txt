@@ -1890,4 +1890,35 @@ o While the metaphorical vision of global neuronal workspace theory helps our
     + A higher vigilance signal caused an electroencephalogram to emerge, and 
       ignition reappeared 
 
+The Restless Brain
+
+o Spontaneous neuronal activity also emerged in the simulation- neurons would
+  spontaneously fire even in the absence of input, and at high levels of the 
+  vigilance parameter, occasionaly global ignition would occur
+  - Similar things occur in the real brain- stimulus evoked brain activity 
+    accounts for less than 5 percent of energy consumed by the brain. Even 
+    when we are asleep or think of nothing, the brain constantly produces
+    neuronal activity
+    MG> This is really interesting and surprising, and to me seems to emphasize
+        the idea that we are less in control than we believe ourselves to be. 
+        While I would definitely agree that conscious thought is not the only
+        thing that our brain uses energy on, it is shocking to me that Dehaene 
+        says less than 5 percent is stimulus related, although I guess not all 
+        conscious stem from a stimulus.
+    MG> After reading further, I've realized that indeed our conscious thoughts 
+        not stemming from external stimuli would lie outside this 5 percent. 
+        I do wonder how much these thoughts are influenced by such spontaneous
+        activity. For instance, whenever a seemingly unrelated thought pops 
+        into one's head, is this due to these spontaneos discharges?
+  - Scientists have observed cortical activity and activated global networks
+    in resting people
+    + Spontaneous brain activity invades the neuronal workspace and can block 
+      other stimuli, causing the inattentional blindness described earlier in
+      the book
+      - In the model, this spontaneous activity also resulted in external
+        input being blocked from achieving global ignition, mimicking
+        inattentional blindness and attentional blink
+    + Both in the real brain and Dehaene's model, random activity can explain
+      why the same stimulus sometimes can cause ignition, and sometimes causes
+      just a trickle of activity
 ****************** END Dehaene's book: Consciousness and the Brain ********
