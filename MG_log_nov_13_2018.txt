@@ -2053,5 +2053,17 @@ o Dehaene describes efforts to create a massively parallel machine based on
   to use computational tools to make progress in our understanding of how 
   brain states affect conscious experience.
 
-  Chapter 6: The Ultimate Test
+Chapter 6: The Ultimate Test
+
+o The science of consciousness can potentially help determine whether a 
+  patient in a coma is conscious, and also help restore communication for 
+  those who are "locked in"
+  - One such person, Jean-Dominique Bauby, was able to write an entire novel
+    about his experience
+  - About 40 percent of patients classified as vegetative turn out to present
+    signs of minimal consciousness
+
+How to Lose Your Mind
+
+o 
 ****************** END Dehaene's book: Consciousness and the Brain ********
