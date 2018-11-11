@@ -1,0 +1,1840 @@
+           1         2         3         4         5         6         7       8
+12345678901234567890123456789012345678901234567890123456789012345678901234567890
+--- BEGIN Notes on Quora Summary of Scott Aaronson's critique of IIT
+Zenil's Answer
+
+o According to Zenil, Aaronson finds it strange that grids can be conscious, and
+  that consciousness grows as a function of grid size
+  - Zenil critiques Scientific American's praise of Aaronson's views, even 
+    though Zenil himself has some critiques of IIT as well:
+    + There are many versions of the measure phi
+      MG> This is interesting, because I also thought that phi was unclear. 
+          Zenil seems to say that there have been many iterations of phi, each
+          presented as final. My confusion was that there seemed to be
+          conflicting definitions of phi (one as a measure of irreducibility,
+          another as a measure of cause-effect power), but again this was likely
+          due to my lack of expertise on the subject.
+
+Bach's Answer
+
+o Bach describes Tononi's IIT as the following: 
+  - Consciousness is defined by how much the information in a system depends on 
+  other parts, which is a measure of global information integration (phi)
+o Bach describes Aaronson's critique as follows:
+  - We can construct a matrix operation that has a large phi value, but is 
+    not conscious, and that while integration might be necessary for conscious 
+    systems, it's not sufficient
+--- END Notes on Quora Summary of Scott Aaronson's critique of IIT
+
+--- BEGIN Notes on Aaronson's "Why I Am Not An Integrated Information Theorist"
+Aaronson begins by summarizing IIT as follows:
+o Phi is a quantitative measure of the amount of "integrated" information
+  in a physical system, or information that can't be localized within the 
+  system's individual parts
+o A physical system is "conscious" if and only if it has a large phi value, 
+  and larger phi values mean that a system is more conscious
+  MG> This is what Tononi said: "The quantity of consciousness — how much the 
+  system exists for itself — corresponds to its irreducibility phi max."
+o According to Aaronson, in order for IIT to succeed, phi must be small for 
+  intuitively unconscious systems, and large for intuitively conscious systems,
+  which he says is a crucial point in which IIT fails
+
+What should a "mathematical theory of consciousness" do?
+o Explain why consciousness exists/solve the "hard problem", or how neurons
+  give rise to experience
+  - Aaronson says this may be too much to ask of a scientific theory-no matter 
+    what facts the theory suggested, it'd be easy to imagine a universe where 
+    these facts were true and consciousness didn't exist. In the case of IIT, 
+    it's easy to imagine a universe full of beings with a high phi value who are 
+    not conscious ("philosophical zombies")
+    + Many people might then say that the "hard problem" is dismissable/a 
+      distraction from real neuroscience. However, Aaronson says that you can't 
+      both dismiss the hard problem as meaningless and say that the problem
+      may soon be solved by neuroscience.
+  - Aaronson says, however, that IIT largely survives the above criticism, as 
+    it aims to show which systems are associated with consciousness and which 
+    aren't in terms of the system's physical organization.
+  - Theories should be able to pass "common sense" test cases, showing that 
+    humans are conscious, dogs are less so, and things like rocks and bacterial
+    colonies aren't conscious. Aaronson calls this the "Pretty-Hard Problem".
+    + In his view, IIT fails the pretty-hard problem because it predicts 
+      vast amounts of consciousness in physical systems that no person would
+      regard as conscious (and that they can be more conscious than humans)
+o Aaronson goes on to define phi, mentioning that he found it difficult to find 
+  a mathematical definition that listed formulas as well as the structures 
+  mentioned in the formula
+  MG> I found this math to be a little bit over my head. Particularly the line 
+      that stated "the input variables in B are fixed to their values in y" 
+      whereas the input variables in A are drawn randomly. As well, the relation 
+      between EI and phi was similarly confusing. Perhaps during our next 
+      meeting we can go over these equations.
+  MG> Maybe because I'm still struggling with the mathematics, but I fail to see
+      how these equations connect to IIT and, specifically, the brain-what part 
+      of the brain would represent y, or A and B, or the function f?
+o Aaronson summarizes the difficulties attempting empirical work in IIT: 
+  1. We don't know the interconnection network of the brain
+  2. It's not clear what should be defined as a network
+     + A crude first attempt could be assigning a boolean to each neuron, with 
+       f updating the variables every millisecond, but what other variables are 
+       needed?
+  3. Even if we did know what each of the variables and the functions were to 
+     be in the brain, attempting to calculate phi would be an NP-hard problem
+  o Aaronson says, however, that his reasons for rejecting IIT are not due to 
+    anything listed above, but rather that a large phi value is not sufficient
+    for consciousness
+    - He describes a "hack" in which he applies a Vandermonde matrix with
+      another matrix W and applies it to an input vector, which results in a 
+      large phi value, such that if the input were large enough, the phi would
+      exceed that of the human brain.
+      + This tells us that integrated information can exist without 
+        consciousness or intelligence
+      + Aaronson also refutes possible critiques which say that he is too
+        abstract/mathematic, that if one built a system that could actually 
+        compute his mathematical system, the phi value of that physical system
+        of wires and logic gates would actually be small. He gives lDPC codes
+        and linear-size superconcentrators as examples of "simple"
+        computational processes that achieve global integration of information
+      MG> Again, this math was above me, so I may have misinterpreted/misstated
+          something. But I think, on a high level, I understand the point that 
+          Aaronson is trying to make.
+o Aaronson ends by concluding that the fact that IIT is demonstrably wrong puts
+  it in the top 2% of mathematical theories of consciousness, as others are so
+  vague and "fluffy" that they can only "aspire to wrongness"
+--- END Notes on Aaronson's "Why I Am Not An Integrated Information Theorist"
+
+--- BEGIN Notes on Tononi's "Why Scott should stare at a blank wall"
+o Tononi begins by summarizing Aaronson's arguments that:
+  - Theories of consciousness should solve the pretty hard problem, or make 
+    predictions about which things are conscious in line with common sense
+    intuition
+  - IIT defines phi that's meant to measure quantity of consciousness
+  - Certain systems such as expander gates are not conscious, and yet have large 
+    phi values, therefore IIT is wrong
+  - He notes that Aaronson doesn't take into account IIT's latest phi, as well 
+    as how IIT addresses identification of the appropriate spatio-temporal grain
+    at which phi should be calculated
+o Tononi argues that Aaronson's intuition that simple systems, such as a 2D 
+  grid of physically implemented logic gates, cannot be conscious, is wrong
+
+Pre-theoretical intuitions can be wrong or contradictory
+
+o Tononi warns of the dangers of relying on pre-theoretical decisions as 
+  Aaronson does. In the case of consciousness, he says, there are many
+  conflicting intuitions about what qualities (self-reflection, language, 
+  humor, intelligence) are needed for consciousness, and whether certain 
+  animals and/or machines can be considered conscious.
+  - Thus, says Tononi, we need to rely on a strict definition based on facts 
+    about our own consciousness, not intuitions. He then goes on to summarize
+    the axioms of IIT, noting that these are true of his own experience:
+    + Existence 
+    + Composition (composed of aspects)
+    + Information (differs from others)
+    + Integration (can't be split into independent components)
+    + Singular (can't have multiple experiences)
+  - Tononi summarizes the postulates of IIT as well:
+  + Existence (system exists)
+  + Composition (made of submechanisms each w/ their own power)
+  + Information (has a conceptual structure specified by each mechanism's 
+    concept)
+  + Integration
+  + Singular (can't be multiple conceptual structures over same mechanisms)
+o Tononi says that theories of consciousness must do the following:
+  - Explain established facts about consciousness and the brain, such as 
+    that consciousness depends on the cortex and not the cerebellum and vanishes
+    during dreamless sleep
+  - Make predictions that can be empirically tested
+  - Help make inferences about situations that are difficult to judge (such as
+    unresponsive individuals with cortical activity, newborns, etc.)
+  - Be able to predict things that are counterintuitive
+    + Complicated biological systems that don't have the right architecture 
+      should be judged as unconscious
+      MG> Here, it feels like Tononi is defining the "right architecture" as 
+          something with a high phi value. But isn't this how his IIT determines
+          whether something is conscious as well? In other words, he is defining
+          whether something should be predicted conscious based on the very same 
+          principle that his theory uses, so of course his theory would make the
+          correct "counterintuitive" prediction.
+o Tononi then explains why certain 2D grids may be conscious
+  1. Phenomenology
+     - 2D space is part of our phenomenology- we experience things in space
+       + Tononi discusses staring at a blank wall-though the wall is blank,
+         one is aware of locations in space, distances. According to IIT, there
+         must be physical mechanisms that specify phenomenological relationships
+         (of 2D space) through their causal power
+  2. Implications of IIT's postulates
+     - Tononi describes a grid of physical elements capable of being in 2 
+       different states that have interconnections to near neighbors, and that 
+       the grid takes no inputs/outputs. He says that over time, the 
+       cause-effect repertoire of each element of the grid is specified, and 
+       if the repertoire is maximally irreducible, it specifies the concept.
+       Thus, analyzing the grid using IIT postulates generates a highly 
+       irreducible concept, that identifies the causal role of each element,
+       orders the element in 2D, and specifies the distance among elements.
+       Tononi says that this grid could specify 2D space, which consists of 
+       spatial locations, their ordering, and distances, etc.
+  3. Explanatory power
+     - Many areas of the cortex are arranged like grids, called maps because
+       elements correspond with parameters of the environment
+       + Cortical 2D maps are grids, in that each element is connected to 
+         other elements of the map, such that closer elements are more strongly
+         connected
+       MG> I wish Tononi would describe how these findings about maps were 
+           discovered, and provide more details about these connections. Are 
+           the connections neurons, or are the neurons the elements?
+       + Tononi concedes that there are categorical elements of consciousness
+         (such as faces) that are not topologically organized. However, he says 
+         that even such faces have a location in space, and thus the binding 
+         between spatial and categorical attributes of an object require
+         connections between areas extracting the two.
+  4. Predictive power
+     - Topographical areas of the cortex contribute greatly to consciousness, 
+       and lesioning or stimulating such areas affects experience directly
+       + Lesions in the primary visual cortex (V1) lead to blindness
+       + Stimulation of V1 causes visual "phosphenes"
+       + Tononi concludes that topologically organized cortical maps likely 
+         contribute directly to our experiences
+         MG> To me, it still that Tononi is not addressing the "necessary, but
+             sufficient" argument that Aaronson mentioned. Yes, this topological
+             organization might be present in cortical areas, but how can 
+             Tononi be sure that it is the grid-like structure that is 
+             responsible for consciousness? 
+       + Tononi does go on to address the "necessary, but sufficient" argument.
+         He concedes that there could be some other property that causes 
+         consciousness, but says the burden is on others to show that such 
+         properties do so better than IIT. 
+         MG> So Tononi does address this argument. I'm not sure that I agree 
+             with his reasoning, however. Just because another property that
+             can account for consciousness has not yet been found and shown
+             does not mean that one doesn't exist. 
+o Tononi summarizes his argument for conscious grids:
+  - 2D space, phenomenologically, has a relational structure of locations, their
+    ordering, and their distances
+  - 2D grids can generate a conceptual structure that through causal mechanisms 
+    specifies relationships among elements (identities, ordering, and distances)
+  - Much of the cerebral cortex is organized like a 2D grid, and the mapping of 
+    features seems related to experience
+  - Manipulating such grids can alter experience
+o He concludes that simple grids can support, rather than invalidate, IIT
+--- END Notes on Tononi's "Why Scott should stare at a blank wall"
+
+--- BEGIN Notes on Scientific American article "Can IIT Explain Consciousness"
+o Panpsychism: doctrine that consciousness is a property of all matter
+  - Horgan says that IIT implies panpsychism might be true
+o Horgan summarizes IIT as follows:
+  - An experience is identical to a conceptual structure that is maximally 
+    irreducible, and a conceptual structure specifies the quantity and 
+    quality of experience. The level of consciousness is measured by phi_max
+o Exclusion- many parts of the brain can have their own values of phi, but 
+  because phi of the entire brain exceeds that of its components, the brain's
+  consciousness excludes the "mini-minds" of the components
+  - The consciousness of a group of people can exclude that of individual 
+    people, rendering them "zombies"
+  MG> I'm not sure that I agree that this principle of exclusion works when 
+      discussing groups of people, especially since one of the only things 
+      we can be sure of when discussing consciousness is that we (people) are 
+      conscious. Just because a group of people is interconnected/might have a 
+      larger phi value than the individual people, to me, doesn't mean that 
+      the individuals are no longer conscious
+o Horgan discusses Searle's criticisms of IIT as well, which relate to IIT's 
+  dependence on information and the fact that certain information is 
+  consciousness
+  MG> I'm not sure I understand what they mean by information here. Is 
+      information the states of the elements of the physical systems 
+      described by IIT? Is it the physical systems itself?
+--- END Notes on Scientific American article "Can IIT Explain Consciousness"
+
+--- BEGIN Notes on Tononi et al. Integrated Information Theory paper
+Abstract 
+
+o This opinion article discusses Integrated information theory (IIT) and how it 
+  describes the relationship between consciousness and the brain.
+o IIT starts with properties of conscious experience, and derives from it 
+  the properties of the physical substrate of consciousness (PSC)
+
+Introduction
+
+o Consciousness is subjective experience that depends on certain regions of the 
+  brain. The relationship between the brain and consciousness is still not 
+  established.
+  - The 'hard problem'- why are some neural mechanisms associated with 
+    consciousness but others not?
+o IIT does not start from the brain and examine how it could give rise to 
+  conscious experience
+  - Instead, IIT starts from the phenomenon of conscious experience itself
+    + From axioms of this experience, IIT describes postulates that are 
+      characteristics required for physical substrates of consciousness
+o This paper summarizes the axioms and postulates, and discuss how IIT 
+  explains the relationship between consciousness and the brain and allows 
+  for further inferences about consciousness
+
+From phenomenology to physics
+
+o The axioms of experience are described below. IIT postulates that for each of 
+  these properties, there must be a corresponding causal property of the PSC
+  1. Intrinsic experience: consciousness and each experience exist 
+     - The only fact one can be sure of is one's own existence
+  2. Composition: consciousness is structured, or composed of distinct phenomena
+     - Within an experience, I might distinguish a chair, the color green, and
+       a backpack
+  3. Information: experience is specific, composed of a particular set of 
+     distinctions that make it different from other experiences
+     - In the example mentioned above, my experience involves seeing a backpack 
+       (rather than no backpack)
+  4. Integration: experience is unitary, composed of distinct phenomena bound 
+     together, and is irreducible to independent subsets
+     - A visual experience cannot be reduced to the left and right visual field
+  5. Exclusion: experience is definite in its content
+     - An experience includes the content it includes, no less and no more
+     - Experiences are also definite in duration
+
+o The postulates of the PST are described below (each number corresponds with 
+  the axiom of experience of the same number):
+  1. The PSC exists intrinsically as well, to account for the intrinsic 
+     existence of experience
+     - To exist in a physical sense, it must have cause-effect power- it must
+       be able to change its state. A neuron in the brain can be active or 
+       inactive, and can have inputs (causes) and outputs to other neurons 
+       (effects)
+  2. The elements that constitute the PSC must have cause-effect power within 
+     the PSC 
+     MG> I'm having trouble seeing how this postulate is related to the axiom of 
+         composition. How do the elements composing the PSC, and their 
+         cause-effect power, relate to the elements of an experience? (see later
+         MG NOTE)
+  3. The PSC must specify a cause-effect structure of a specific form that makes 
+     it different from other possible forms
+     - Cause-effect structure: the set of cause-effect repertoires specified by 
+       all mechanisms of a system 
+       + Mechanism: subset of system elements
+       + Cause-effect repertoires: specify the full cause-effect power of a 
+         mechanism in a particular state
+     MG> This postulate is pretty hard to conceptualize. Although, I'm now 
+         starting to better understand how the postulates relate to the axioms. 
+         Before, my understanding was that each postulate would describe a PSC 
+         characteristic that would directly give rise to the corresponding axiom
+         of experience. However, it seems to me that instead, the postulates 
+         suggest the PSC has similar characteristics as the axiom. These may 
+         be one and the same, however. (see later MG NOTE)
+    4. The cause-effect structure specified by the PSC must also be unitary, or
+       irreducible to cause-effect structures specified by independent 
+       systems
+       - This means that each part of the system has both causes and effects 
+         within the rest of the system
+       - The irreducibility of each cause-effect repertoire is represented by
+         phi (the minimum distance between an intact and a partitioned 
+         cause-effect repertoire) 
+    5. The cause-effect structure specified by the PSC must be definite
+       - There must be a definite set of cause-effect repertoires over a 
+         definite set of elements
+
+    MG NOTE> Much of my confusion was cleared up when I realized (perhaps later
+             than I should have) that the postulates describing the PSC would 
+             describe not only the brain, but also any sort of computational 
+             model that aimed to achieve consciousness. For some reason I 
+             understand the postulates and how they relate to the axioms much 
+             better when considering a computational model/system rather than 
+             the brain. In fact, this leaves me wondering whether these 
+             postulates are meant to describe the brain, as they don't seem to 
+             mesh well with my current understanding of how the brain works. 
+
+o Complex: a set of elements in a state that satisfies the postulates of IIT
+  - This constitutes the PSC
+o An experience is identical to a conceptual structure- every property of an 
+  experience must correspond to a property of the conceptual structure, and 
+  vice versa
+  - The quality/content of consciousness corresponds to the form of the 
+    conceptual structure
+
+The PSC within the brain 
+
+o The neural correlates of consciousness (NCC) are likely located in parts of the 
+  cortico-thalamic system (connect the thalamus to cerebral cortex), but where 
+  specifically?
+  - Are the NCC fixed, or can they shrink, or move?
+  - IIT says the following:
+    + Content specific NCC: the neural elements of the PSC in a particular state 
+      that specify a phenomenal content 
+    + Full NCC: the neural elements of the PSC irrespective of their state
+    + Background conditions: factors that enable consciousness
+    + The PSC corresponds to the complex of neural elements w/ maximum 
+      cause-effect power
+
+o Elements of the PSC
+  - Want to figure out what scale of neural elements supporting consciousness is
+    + IIT says: the neural elements are those w/ the maximum cause-effect power
+    + Exhaustive evaluation of cause-effect power at multiple levels is only 
+      possible in small simulated networks 
+      - Experiments are possible in real networks that assess the repertoire of 
+        individual neurons and recording firing of neurons and testing the 
+        irreducibility of the neurons. This is the micro level.
+      - At the macro level, a similar experiment could be run, instead 
+        considering subsets of neurons
+      - A researcher could empirically test whether the firing of a single 
+        neuron or the activity of a cortical minicolumn (comprised of 80-120 
+        neurons) makes a difference to the content of an experience
+o Timescale
+  MG> One phrase that keeps appearing is "temporal grain". I think I understand 
+      enough to understand the word in context, but I wish they'd define this 
+      more clearly. (Looking this up yielded very little as well)
+  - The timescale that makes the most difference to the system (has the maximum 
+    cause-effect power in the relevant brain regions) should be the timescale 
+    of the PSC 
+o State of the elements
+  - According to IIT: the only neural states that matter for consciousness are 
+    those with maximum cause-effect power on the system
+    + This means that "finer grained" neural states that can have demonstrable 
+      neuro-physiological effects make no difference to the content of 
+      experience according to IIT 
+    MG> This seems like a weakness of IIT to me. It's likely that I'm not fully
+        grasping the meaning of "maximum cause-effect power", but it seems 
+        strange to me that only the states with the maximum power would 
+        affect the experience- why would any other states exist if they had 
+        no effect? Am I oversimplifying?
+o Constitution of the PSC
+  - Want to find the subset of neuronal groups that constitute the PSC for a 
+    particular experience, or the subset with the maximally irreducible 
+    cause-effect power on itself (phi)
+    + Ideally would manipulate/record this set to show it has the maximum phi,
+      but currently this type of evaluation isn't possible
+o Can the PSC change?
+  - When one is sleeping or watching a movie that prevents self-reflective 
+    thought, does the PSC shrink, or sill include those less active areas in an 
+    inactive state?
+  - The authors say that the PSC can become smaller or reconfigure
+  - Methods that allow inactivation of certain cortical areas (such as TMS) can
+    help with evaluation of their importance to consciousness 
+o Multiple complexes 
+  - IIT states that multiple discrete PSCs can coexist within a single brain 
+  - Major complex: the complex that specifies a person's typical stream of 
+    consciousness
+    + After a split brain operation, the major complex can split 
+    + In normal, healthy brains, splitting might occur during dual-task 
+      conditions (like driving on autopilot while having engaging conversation)
+      MG> Doesn't the PSC only deal with conscious activity? I think autopilot 
+          could be considered unconscious
+    + Another possibility: multiple conscious streams in daily life, or perhaps 
+      a separate minor complex that supports unconscious operations
+o Figure 2 shows trials that identify the elements, timescale, and states of the 
+  PSC 
+  MG> I wish they provided more information on how these trials were conducted. 
+      What sorts of methods and technology did they use to gather this data? 
+
+Information capacity of consciousness
+
+o The estimate for information capacity of human consciousness is around 40 bits 
+  per second
+  - The authors mention phenomena such as attentional blink and change blindness
+  - While these phenomena occur, there is a difference between what one 
+    experiences and what one can report. For instance, 
+o IIT claims consciousness has a high capacity for integrated information 
+  - Apart from being able to identify high invariance concepts (such as 
+    identifying letters on a screen), humans are able to recognize many other 
+    low and high order, low and high invariance, positive and negative concepts, 
+    and relations that machines may not be able to recognize
+    + These include the arrangement of rows, the color of the background, the 
+      absence of a face or house 
+
+Explanations 
+
+o IIT can explain why the cerebral cortex is important in consciousness, but 
+  the cerebellum is not
+  - The cortex has gridlike connectivity among neurons, whereas the cerebellum 
+    is composed of microzones with independent inputs and outputs
+o IIT also explains the fading of consciousness during slow wave sleep 
+  - Changes in neuromodulation cause cortical neurons to become bistable (input 
+    triggers a neuronal down-state, after which neurons enter an up-state and 
+    activity resumes)
+  MG> I don't quite understand how or why this results in a loss of 
+      consciousness. I guess I can see how the downstate and upstate is 
+      different than than the chain of deterministic effects that occurs during 
+      wakefulness. Perhaps a better question would be how the lack of 
+      neuromodulation causes this bistability.
+o IIT can also account for why conscious brains might have evolved:
+  - Brains that can incorporate the causal structure of the environment into 
+    their own causal structure have an evolutionary advantage 
+    + This has been modeled in simulations involving placing animats (simulated 
+      organisms) with varying phi values into mazes
+
+Predictions 
+
+o Predictions of IIT: the PSC must be a maximum of intrinsic cause-effect power, 
+  and the spatio-temporal grain is that which yields the max phi value 
+  - Testing these predictions is difficult but possible
+    + One empirical measure, PCI- perturbational complexity index - gauges the 
+      intrinsic cause-effect power (proxy for phi max)
+      MG> I thought phi was a measure of the irreducibility of a cause-effect 
+          repertoire, not its cause-effect power. Are these the same?
+      - The PCI is high only if brain responses are integrated and 
+        differentiated, confirming the IIT prediction
+    + Another method is observing the average properties of neural interactions 
+      based on a representative sample of neural states, then analyzing using 
+      measures of differentiation/integration
+o Some of these predictions include:
+  - Qualitative features of experience correspond with features of the PSC's 
+    conceptual structure 
+  - Spatial structure of experience is reflected in features of conceptual 
+    structures
+  - Changes in the connections among elements of the PSC cause changes in 
+    experience, rather than whether the elements are firing 
+o Supplementary Figure 5
+  - Contrasts the GNWT (global neuronal workspace theory) with IIT, specifically 
+    how one becomes conscious of seeing a face 
+    + GNWT: information is unconscious if processed locally, but becomes 
+      conscious or "enters the workspace" if the information is "broadcast" 
+      when the fronto-parietal workspace is "ignited", with synchrony and the 
+      P3b wave 
+    MG> This is the model that Dehaene explains with the 4 signatures of 
+        consciousness
+    + IIT: the "face" neuron in the PSC turns to burst firing, changing the 
+      form of the conceptual structure 
+
+Conclusions 
+
+o IIT starts from axioms of experience and translates them into conditions 
+  or postulates for the PSC
+o If validated, IIT might cause reconsideration of consciousness as we know it
+--- END Notes on Tononi et al. Integrated Information Theory paper
+
+--- BEGIN Notes on preprint of Metacognition for a Common Model of Cognition
+Definitions
+
+o Cognition is defined in the paper as a repeating perceive-decide-act cycle
+  - Perceive: related to the signals that describe the environment in which 
+    the agent exists
+  - Decide: the processes that result in a decision about the action to execute 
+    + Can include attention, conscious access, planning, etc.
+  - Act: the ultimate outcome of the cognitive cycle, usually resulting in motor 
+    response
+o Metacognition: cognition about cognition, or any cognitive process about 
+  another cognitive process (e.g. reasoning about reasoning)
+  - A process is metacognitive if and only if it receives input from, sends
+    sends output to, or both receives from and sends to the same process type 
+    (perception, decision, action)
+
+General Categories:
+o Category 1: Decision -> Decision 
+  - Signals from other decisions provide the input, and the output is directed
+    at other decisions with the intent to modulate them 
+  - Examples:
+    + Arbitration of model-free vs model-based reinforcement learning
+      - These account for habitual and goal-directed behavior, respectively 
+      - The arbitrator is a meta-control mechanism whose input is the estimated 
+        reliability of the MF and MB systems, which determines how much control
+        to give to each system
+    + Self-representation 
+      - Self concept allows us to situate ourselves in the world and reflect on
+        how we act and feel 
+      - The ventral medial prefrontal cortex mediates self concept 
+    + Reflection and self-improvement
+      - The aforementioned self concept allows us to reflect on ourselves and 
+        improve ourselves 
+        + This requires a way to assess one's performance, and to develop new 
+          heuristics, and gradually incorporating into decision making 
+    + Self-control 
+      - In a functional imaging study examining the brain activity of dieters,
+        it was found that the dieters' health or weight loss self concept 
+        (higher level) affected the valuation process in the striatum (lower 
+        level), lowering the value for junk food, rather than permitting 
+        competition between higher and lower level systems
+        MG> This is really interesting. I wonder then, why it is that so often 
+            dieters fail to maintain their diet. If it is the case that the 
+            valuation process in the striatum is actually changed such that
+            junk food is valued less, why do so many return to junk food? That 
+            suggests perhaps the value is not lowered enough.
+    + Artificial Category-1
+      MG> I believe in this section the authors discuss artificial systems that
+          model Category 1 metacognition, but the authors don't explain very 
+          clearly what each architecture is or how exactly they relate to 
+          metacognition.
+
+o Category 2: Decision -> Action 
+  - Unlike in Category 1, where output is sent to another decision process,
+    Category 2 metacognition leads to action and decision making, and can be
+    behavioral-control and problem solving systems. It takes input from lower 
+    level decision processes to influence its own decisions.
+  - Examples:
+    + Social cognition
+      - Social cognition requires agents to have a self-concept, as well as 
+        models of others in the environment
+      - Processing scial constructs and rules may be meta-cognitive, 
+        but it depends on how they are processed or modeled
+      - Coordination with other cognitive systems may require coordination among 
+        sets of cognitive processes, which is metacognition 
+      MG> I must admit I'm confused as to how social cognition is related at all
+          to category 2 metacognition. It seems as though they emphasized how 
+          social cognition is indeed metacognition, but didn't relate it back to
+          Category 2, which I thought was more related to making higher level 
+          decisions to take action
+    + Artificial Category-2 Metacognition 
+      - Artificial Category-2 metacognition includes models of social cognition  
+
+o Category 3: Perception -> Decision
+  - Environmental stimuli/perceptual processes form the input to Category-3 
+    metacognition, and the output goes to other cognitive processes
+  - Example: context and abstract task relevant information
+    MG> Not exactly sure what this means-does it mean that taking in stimuli
+        about one's context/environment and deciding what is relevant is 
+        category 3 metacognition?
+  - Higher order brain regions (like the prefrontal cortex) provide 
+    environmental information to decision-making systems
+    MG> The activation of the prefrontal cortex is one of Dehaene's signatures
+        of consciousness. It makes sense that this region is responsible for 
+        environmental information in decision making.
+
+o The authors mention that in practice, category boundaries are fuzzy
+
+Components of Metacognition
+o (This section focuses on Category-1 metacognition)
+o The components of metacognition are as follows: (INPUT) decision process -> 
+  monitoring -> evaluation -> planning -> simulation -> modulation & control ->
+  (OUTPUT) decision process
+  - Monitoring: the metacognitive process receives input from the cognitive 
+    processes it attempts to influence. 
+  - Evaluation: Activity received from monitored systems is evaluated. 
+    + An example in the brain is a region in the prefrontal cortex arbitrates 
+      between behavioral-control systems with an evaluation process comparing 
+      likelihood of success
+  - Planning: Evaluation includes an assessment of future success and
+    identifying the best actions to achieve success
+    MG> Is this separate from evaluation? I'm having trouble distinguishing the
+        two
+  - Mental Simulation: Similar to planning, simulation allows the playing out of 
+    possible scenarios before choosing an action, requiring rich mental models 
+    of the environment 
+    + Consciousness is important in forming mental models
+  - Control: Category-1 metacognition involves coordinating lower level 
+    behavioral-control systems (choosing between them (arbitrating), and 
+    multitasking)
+
+Consciousness (the most quintessentially 'meta' cognition)
+o Consciousness is perceiving, pondering, and experiencing things derived from 
+  other decision processes, making it metacognition
+o The 'Hard Problem': explaining subjective human conscious experience 
+  - The authors attempt to summarize the developments regarding consciousness:
+    + Integrated Information Theory (IIT) as a theoretical framework
+      - Starting with axioms about consciousness and deriving postulates from
+        it
+      - Central idea: must use own experiences of the phenomenon of 
+        consciousness as proper representation of consciousness
+    + For a system to have artificial consciousness, must observe the following:
+      - External environment
+      - Itself in relation to the environment
+      - Internal thoughts
+      - Time (past, present, potential future)
+      - Hypothetical or imaginative thoughts 
+      - Reflection (observation of observation)
+    + The authors conclude that to meet these requirements, an AI system would 
+      simply have to create and process data structures to represent them.
+      MG> They do seem to imply that in actuality, it would not be so simple. 
+          However, how would a data structure allow a machine to create 
+          imaginative thoughts? That seems to be too abstract a concept to be 
+          simple to implement.
+o The authors mention Dehaene's idea that consciousness is the mind's VR, that 
+  allows for the stable retention of information while perception is ever 
+  changing
+o Another aspect of consciousness: inner speach and an interpreter
+  - Interpreter: consciousness gives us the sense that we are in control, and
+    gives us a sense of "I" (which, as we know, are Gazzaniga's words)
+    + In the context of metacognition, this interpreter role of consciousness 
+      organizes lower level processes to produce a consistent narrative, and
+      this narrative is used to affect behavior
+      - In this way, consciousness is related to all 3 types of metacognition, 
+        as it coordinates other systems, and makes decisions
+o Johnson-Laird discussed a parallel approach to artificial consciousness 
+o Affective processing was identified as an important part of conscious 
+  experience:
+  - Our experience of consciousness and sentience is at least partially due 
+    to an integrated signal of bottom-up body state signals and top-down
+    conceptual understanding
+    MG> Perhaps because I don't have the background to understand this, but 
+        I feel the authors could have been clearer about how the combination 
+        of such signals contributes to sentience. 
+  - Metacognition should play an important part in further understanding 
+  consciousness, as it focuses on system-wide integration of cognitive 
+  processing
+
+6. Design Issues and Case Studies
+
+6.1 Design Issues for Metacognition
+
+The homunculus fallacy: a little person (homunculus) inside one's brain can 
+reason like an intelligent being, implying it has a mind and another little
+person inside it - an infinite train of thought 
+o Possible solution: provide constraints on what the highest level system should
+  entail 
+  - Functional standpoint: conceive metacognition holistically rather than 
+    part of collection of parts 
+
+Internal languages of thought:
+o One general approach for building a metacognitive system: build additional 
+  components for the model, or make the system itself able to add a process
+o A logical hierarchy has been developed that can connect the lower end of the
+  decision with higher end of perception, providing a step in facilitating
+  metacognition 
+
+Limitations of human cognition: human cognition often makes simple logical 
+errors, and perhaps should not be the only model for metacognition
+
+6.2 Metacognition in Cognitive Architectures 
+
+o Three case studies for metacognition using computational frameworks: ACT-R,
+  CLARION, and LIDA
+o ACT-R
+  - There is a metacognitive module that accesses the model's knowledge and uses 
+    it to solve a problem
+o CLARION
+  - Comprises of symbolic and subsymbolic representation levels
+  - Based on model describing metacognition as monitoring and coordination of 
+    cognitive processes in relation to the data they use
+    MG> Symbolic: more useful for coding, explaining. Subsymbolic: better 
+        performance, not formatted for humans
+o LIDA
+  - Doesn't define metacognition outright with a certiain module; instead 
+    metacognition emerges from the interaction of cognitive cycles 
+    corresponding to action-perception loops
+  - Implemented through behavior streams, each with its own metacognitive task
+  - Uses an artificial consciousness system where little processes (attention
+    codelets) compete to bring items of interest to consciousness 
+--- END Notes on preprint of Metacognition for a Common Model of Cognition
+
+--- BEGIN about 2010 Cognition article Mapping Introspection's Blind Spot
+ 
+Mapping introspection's blind spot: Reconstruction of dual-task phenomenology
+using quantified introspection
+ 
+o Overview of the experiment:
+  - The authors performed a psychological refractory experiment, comparing
+   objective responses to the subjective, introspective responses of the subjects
+   + They found introspections to be highly correlated with objective measures
+   + However, whenever the second target was presented while the first task
+     was being completed, subjects were largely unaware of them: this was the
+     psychological refractory period effect
+ 
+o Figure Three:
+  - (A) Representation of the central bottleneck model
+   + While the central stage of T1 is occurring, T2 processing cannot occur
+   + The central stage of T2 begins at the end of T1 decision no matter when
+     T2 onset occurs
+   MG> It looks like the so-called "bottleneck" is that only one thing may be
+       in the central stage at once. One thing I don't understand is how, if T1
+       and T2 are perceived/onset at the same time, the brain determines
+       whether T1 or T2 is processed (via the Central stage) first
+  - (B) Objective response times as a function of SOA
+   + SOA is stimulus onset asynchrony, or the amount of time between the
+     starts of stimuli
+   + As the SOA increases, the reaction time seems to decrease
+   MG> This makes sense in light of (A). When the SOA is very small, it's
+       likely that the central stage of T1 is still occurring, and thus the
+       reaction time for T2 would be longer
+- (C) Subjective phenomenology of a PRP trial based on introspective measures
+   + PRP: psychological refractory period (time during which the response to
+     a second stimulus is significantly slowed because a first stimulus is
+     still being processed.)
+   + In most cases, the objective SOA matches what participants reported.
+     Participants seemed blind to T2's onset during processing of T1 
+   MG> When comparing (C) to (A), it's easy to see the PRP. Even when the SOA
+       was 0, the participants seemed to think T2 appeared much after T1. This
+       shows very clearly the idea that our brains are like a bottleneck, only
+       able to process one thing at a time
+
+o Methods:
+    - First, had subjects undergo "calibration" which entailed responding to a 
+      tone and estimating timing repeatedly
+    - Then had subjects respond as quickly as possible to an auditory tone (T1) 
+      by pressing one of two keys corresponding with a low tone and a high tone, 
+      followed by a visual letter (T2) by pressing one of two keys corresponding 
+      with one of two possible letters
+        + The subjects were told to respond first to the tone, then to the
+          letter (this answers my question from last week about how they 
+          were to differentiate which was T1 and T2 and which to process first)
+        + Subjects then had to answer four introspective question regarding:
+            - Time to respond to T1 (auditory tone)
+            - Time to respond to T2 (visual stimulus)
+            - Stimulus onset asynchrony
+            - Whether the letter appeared before or after the auditory decision
+
+o Overall Conclusions:
+    - With regards to the objective measures, the experiments demonstrated all 
+      of the properties of the PRP phenomenon, meaning at short SOAs, processing 
+      of T1 delayed processing of T2
+    - Subjectively, subjects underreported reaction times, suggesting they 
+      introspect about only part of the total processing time
+        + Subjects showed an inability to introspect about the T2 duration
+          when occupied with the first
+    - The authors also conclude that introspection is a tool that can provide 
+      data about the subjective phenomenology of a task, whether or not it is 
+      objectively true
+o AC> Does this study conflict with the concept of attentional blink?
+    - Marti et al. describe the dual-task paradigm as something allowing us to
+      monopolize our attention on a task, leaving other tasks with few 
+      attentional resources, to the point where perception is delayed and the
+      subjective timing is off.
+    - Attentional blink (AB) occurs when the perception of the second target does 
+      not occur at all when the two target onsets are very close
+        + This might seem to conflict with the results of this study, where it 
+          appears that subjects merely experienced a delay in CON, but they 
+          did perceive the second target
+    - Marti et al., however, decide that the central interference model and the 
+      attentional blink model do not conflict, but are in fact related.
+        + AB can occur under appropriate conditions for masking, leading not 
+          just to delayed perception but an inability to achieve CON at all. 
+        + The conditions necessary for this to occur when the targets are
+          embedded in a temporal series of distractors.
+            - Some reports have shown that distractors that occur after the 
+              onset of T2 can cause the distortion of perception
+        + Some have even said that the PRP (psychological refractory period) 
+          and AB models should be combined into one
+    MG> It seems that most researchers agree that attentional blink and the
+    models/findings of this paper are not conflicting, but in fact share many
+    commonalities. My conclusion is that this study did not create the 
+    appropriate conditions for the AB phenomenon to occur, namely using
+    distractors both before and after T2.
+
+o AC> Why is the personal pronoun “I” ambiguous in situations when we are sure of 
+  the identity of the person using that pronoun?
+  MG> I'm still a little confused about this question in the context of the 
+      paper. The paper seems to conclude that one's introspective reports, while
+      not necessarily always objectively true, can reveal things about what is
+      going on in the mind. Perhaps when a person uses the word "I" and is
+      reflecting introspectively, they aren't actually reporting on their actual
+      state but rather, what they think their state is?
+ 
+--- END about 2010 Cognition article Mapping Introspection's Blind Spot
+
+--- BEGIN about Wikipedia article on Benjamin Libet
+
+Life Overview
+
+o Libet was a scientist studying consciousness, and received the Virtual Nobel
+  Prize in Psychology for his work involving consciousness and free will
+o His most famous work involved unconscious electrical processes in the brain
+  that precede conscious decisions, suggesting that these unconscious processes
+  potentially cause volitional acts
+    - This work is controversial as it challenges the belief in free will, and
+      also because of some of its implicit assumptions
+
+Volitional acts and readiness potential
+
+o Equipment used:
+  - Cathode ray oscilloscope was used as a timer to determine the amount of time
+    between the subject's conscious will to act and the action itself
+  - Electroencephalogram (EEG) was used to monitor brain activity
+  - Electromyograph (EMG) was used to record muscle movement during the 
+    voluntary motor act
+o Methods:
+  - Subjects sat infront of the timer with EEG electrodes attached
+  - Subjects would be asked to perform a motor activity like pressing a button
+  - Subjects were to note the position of the oscilloscope when they became 
+    aware of the urge to act (this was used as the time of initial volition)
+    MG> The article mentions that subjects were able to report this fairly
+        accurately. However, it seems to me like there would be issues with 
+        delay (because as we've learned, the mind takes time to take in 
+        sensory input and process it). 
+  - The position of the oscilloscope when the button was pressed was recorded 
+    (this was used as the time of the motor activity)
+  - The brain activity from the EEG recordings was compared with the timing of
+    initial volition
+      + Researchers found that brain activity related to the action began as 
+        many as 300ms before subjects reported awareness of the will to act, 
+        meaning conscious decisions were apparently proceeded by an unconscious 
+        buildup of activity in the brain
+          - This is referred to as Bereitschaftspotential or readiness 
+            potential
+          - The outcome of a decision could be predicted by studying brain 
+            activity in the prefontal and parietal cortex up to 7 seconds before 
+            the subject was aware of their decision
+
+Implications
+
+o Some interpret Libet's experiments to mean that it is these unconscious 
+  processes that are the true initiators of volitional acts, rather than free 
+  will
+o Libet himself believes that free will plays a part in 'the power of veto'
+  - Conscious acquiescence is required to allow the readiness potential to be
+    actualized into movement
+  - For example, the suppression of anger is an example of the conscious will
+    suppressing something brought on by the unconscious
+  MG> This is fascinating to me. I've never before considered what physically
+      or chemically is happening when anger surges within a person. I guess
+      that would be an unconscious feeling, and the consciousness must decide
+      whether to act upon it or suppress it. I have a close friend who 
+      struggles with anger issues, sometimes over small things, and this really
+      makes me think about why some people to have more trouble with unwanted 
+      surges of anger, as it frames this anger as an unconscious phenomenon.
+o Reactions by dualist philosophers 
+  - Some dualist philosophers have disputed the idea that consciousness is a 
+    side effect of neuronal functions, which Libet's experiments seem to support
+      + They suggest that consciousness is something additional to neuronal 
+        activity
+  - Others criticize the setup of the experiment, specifically asking the 
+    subjects to wait for the urge to appear to move, as this is not a conscious
+    act
+o David Dennett criticizes the fact that while some portions of the experiment
+  were timed objectively (using the EEG), others were subjective (like the 
+  subject's report of the position of the oscilloscope hand)
+    - He argues that the subject's subjective report describes when things
+      came together, rather than when they objectively occur
+        + He points out that the time taken for the light from the 
+          oscilloscope to travel from the subject's retina to the cortex is
+          not taken into account, and that these visual signals need to be 
+          processed before the subject can make a conscious decision
+o Libet also argued that his experiments suggested humans retrospectively
+  date the beginning of a sensation to the moment of primary neuronal response
+    - This idea was met with controversy
+
+Conscious mental field theory
+o Libet proposed a theory of the conscious mental field (CMF) explaining how 
+  mental arises from the physical brain
+  - He proposed the CMF as a "property" of the brain that explains the 
+    following:
+    + The unity of subjective conscious experience (why even though functions of
+      the cortex are localized to a microscopic level, our conscious experiences
+      are a single unified experience)
+    + The phenomenon that conscious mental function appears to influence nerve 
+      cell activity
+  - The CMF is the mediator between physical activities of nerve cells and the
+    emergence of subjective experience
+    + It cannot exist without the brain, but it has properties not directly
+      predictable from the activities of the physical neurons
+
+--- END about Wikipedia article on Benjamin Libet
+ 
+****************** BEGIN Dehaene's book: Consciousness and the Brain ********
+ 
+           1         2         3         4         5         6         7       8
+12345678901234567890123456789012345678901234567890123456789012345678901234567890
+ 
+Introduction
+ 
+o Discusses prehistoric depictions of dreaming, and the recurring symbolic
+  use of birds as representations of souls flying away from physical bodies
+  - Dreaming potentially is proof that mental activity is more than the
+    physical world
+    + The author wonders-how can a mind, which is "free-flying", arise from
+      a down to earth, or material brain?
+ 
+Descarte's Challenge
+ 
+o Descartes described dualism-the idea that the conscious mind is made of
+  nonmaterial substance, and eludes the laws of physics, that no machine could
+  ever emulate the free flowing mind
+  -   Many people, textbooks, etc. believe that Descartes set back neuroscience
+  -   The author argues that the "truth" is Descartes was a pioneer, and his
+      ideas were the first in synthetic biology and theoretical modeling
+ 
+o Descartes described the human body as a machine-similar to an instrument,
+  with pipes and fluids called "animal spirits".  This machine has functions
+  such as digestion, nourishment, hear beating, waking, sleeping, smell,
+  light detection, as well as impression of ideas in "the organ of common
+  sense and imagination", and the retention of ideas in memory, and the
+  functioning is similar to/as natural as a clock's ticking or some sort of
+  mechanical system.
+  MG> I find it fascinating to see the contrast between how insightful
+      some of his ideas are (such as memories being pathways, which is
+      reminiscent of modern ideas about changes in brain connections and
+      neurons) and how absurd others are (like the often referenced
+      "animal spirits" which can be a mechanism in moving a limb or, when the
+      pressure of spirits is reduced, causing sleep)
+ 
+o Although (as described above) Descartes did believe the mind (or some
+  functions of the mind) to be part of the bodily machine, he still believed
+  that some portion of it was immaterial. Two of its functions made him
+  particularly believe minds to be something no machine could ever replicate:
+  - Expressing thoughts/ideas through words, and responding to queries
+  MG> This is really interesting, because it seems like a lot of
+      the latest technology (e.g. Amazon echo, Google Assistant, etc.) is
+      able to "understand" and respond quite appropriately to human speech. I
+      recently saw a video about something called Google Duplex, during which
+      the assistant made a call to book a haircut appointment, which was
+      astonishing to watch, but raised a lot of questions about potential
+      implications of such realistic AI.  It's strange to think about what
+      Descartes would think about a machine replicating human interaction so
+      accurately.
+   - Flexible reasoning-Descartes believed machines behave rigidly, and
+     cannot generate infinite variety of thoughts/react to any possible
+     occurrence in life
+ 
+The Last Problem
+ 
+o While far away galaxies and tiny particles have been studied extensively,
+  the brain and consciousness have not
+o In the 80s, the word was even "banned" - psychologists felt it added little
+  - This book tells the story about how this attitude changed, and
+    consciousness became a focus of neuroscience
+ 
+Cracking Consciousness
+ 
+o Definition of consciousness- 3 parts:
+  - State of wakefulness
+  - Focusing attention onto specific things
+  - Conscious access (hereby abbreviated as CON)
+    + The fact that some information enters our mind and awareness and
+      becomes transferable to others
+ 
+o Author argues that only CON is true consciousness, as one can see something
+  flash before their eyes but not really process/see it (this is unconscious)
+ 
+o CON can be studied scientifically-the author says there are "dozens of ways"
+  stimuli can be perceived.
+  MG> I wish the author would provide more information about how
+      these stimuli are studied. In the next paragraph he details that
+      higher-order consciousness (like the recursive nature of consciousness)
+      can now be quantified, but doesn't discuss how. Although perhaps he
+      will cover this more later.
+ 
+o Some philosophers [AC: especially David Chalmers] claim consciousness and
+  the way we perceive our world will never be described scientifically, but
+  the author disagrees.
+ 
+To See or Not to See
+ 
+o The eye takes in a lot of things, but only some things make it to our minds,
+  whereas others are lost (this is CON).
+ 
+Turning Subjectivity into Science
+ 
+o The author argues that subjective reports from patients are important in the
+  study of CON as they correspond with real events in the brain.
+ 
+Signatures of Conscious Thoughts
+ 
+o Author's research uses brain scans to examine where in the brain is
+  stimulated when a person perceives something.
+  - He and colleagues have proposed "global neuronal workspace" -
+    consciousness is sort of broadcast throughout a neuronal network
+    throughout the brain.
+    + This network is not traditional in the sense that it is active only when
+      stimulated by some sort of input, but instead even in the dark, it
+      remains active, broadcasting information throughout, causing the stream
+      of consciousness.
+ 
+The Future of Consciousness
+ 
+o Applications of such research include determining whether patients in comas
+  are conscious and simply unable to communicate that to us.
+  - As well, could we replicate consciousness using computers?
+    MG> I would love to learn more about new technologies such as AI and
+        machine learning which attempt to model certain components of
+        consciousness, especially as these topics are currently a "hot topic"
+        of the technology industry.
+
+Chapter 1: Consciousness Enters the Lab
+ 
+o Optical illusions (such as the one on page 18) can allow researchers to
+  track neural pathways during conscious vs unconscious stimuli, as right
+  before our eyes things can disappear and reappear.
+ 
+The Many Facets of Consciousness
+ 
+o Even though we are constantly receiving endless stimuli -- colors, sounds,
+  objects across the room -- only one single thread of consciousness is
+  present in our brains. Our consciousness filters out all the extraneous
+  information (this is CON).
+  - The author points out that one is always *subconsciously* aware of the
+    position of one's legs and pressure on certain body parts -- that
+    information is always accessible, but not consciously on our minds.
+    MG> I have noticed this phenomenon in the past, when for instance I become
+        aware of the pace of my breath and the frequency of my blinking, but
+        never considered it in this context before. There's so much that my
+        body and brain process and do that I (if I can separate myself
+        from these processes) am not consciously aware of!
+ 
+o Selective attention and CON are different -- attention is not always
+  conscious -- many times there is so much information that some attention
+  must be given before deciding what to access.
+ 
+o Another aspect of consciousness is vigilance -- described as "the level of
+  excitement in cortical and thalamic networks that support conscious states",
+  which is different than wakefulness.
+  - Some people in vegetative states can be wakeful and yet not perceive any
+    information.
+ 
+o Consciousness has also been thought of as the ability to recognize
+  oneself/have a sense of self (metacognition = "the ability to think about
+  one's mind")
+  - There are interesting experiments such as the red dot test (to see if
+    children and animals recognize selves in the mirror), suggesting that
+    humans are not alone in this type of consciousness.
+    * The author says that the study of consciousness as a science should
+      focus on CON as things like recursive consciousness, attention,
+      wakefulness, and vigilance complicate things, and should be saved for
+      later.
+ 
+Minimal Contrasts
+o Minimal contrast: a pair of experimental situations that are minimally
+  different, but only one is consciously perceived.
+  - Experiments that utilize this allow scientists to examine one variable,
+    and exactly what events cause this switch from unaware to aware.
+ 
+o The optical illusion where the grey dots disappear may be similar to the
+  way our eyes must filter out blood vessels in front of photoreceptors
+  MG> I've heard also in the past that we are constantly filtering out our
+      nose from our field of sight as well. The depth to which our eyes and
+      brain coordinate to create our field of vision astounds me!
+ 
+Rival Images
+ 
+o Binocular rivalry:
+  - Our eyes notice two slightly different worlds, but our brains fuse this
+    into one smooth view of the world
+  - When Sir Charles Wheatstone [AC: 1838] did an experiment where each eye
+    could see distinct images, the viewer's perception wavered between the
+    two visions (the images "fight" for conscious perception).
+ 
+o  In experiments involving monkeys, at earlier processing stages, cells
+   acted objectively (firing regardless of whichever image the monkey
+   indicated they perceived), whereas as visual processing progressed to
+   "higher visual areas", neurons began to agree with what was consciously
+   perceived, suggesting conscious perception relies on higher level
+   association cortex.
+ 
+When Attention Blinks
+ 
+o The binocular rivalry requires attention -- once attention is removed, the
+  rivaling neurons no longer act codependently.
+ 
+o Attentional blink: by saturating the mind, there are brief periods of
+  invisibility where the brain does not perceive certain things.
+  - In one study, stream of symbols appears on computer screen, most digits,
+    some are letters. Viewers are told to remember the letters, and if the
+    second letter appears very close to the first, they are often unaware
+    + Brain imaging reveals that viewers see all letters, but not all reach
+      the processing that makes us aware
+ 
+o Similar to binocular rivalry in that two images are competing, but instead
+  these are temporally separated.
+ 
+o Even if we think we can process multiple unrelated things at once, that is
+  an illusion (CON has a [AC: SEQUENTIAL] bottleneck)
+  - There's a refractory period, a delay period before further inputs are
+    processed, which we are unaware of.
+ 
+o Longer term, this phenomenon is known as "inattentional blindness" (like
+  when a chess player is oblivious to his surroundings, and the invisible
+  gorilla experiment)
+ 
+o Change blindness- inattention making us unaware of significant changes (like
+  the WHODUNNIT experiment)
+ 
+Masking Conscious Perception
+ 
+o Masking, or subliminal images:
+  - For scientific studies, need to be able to make an image 100% invisible,
+    no matter how informed participants are or how many times they view it.
+  - Masking can do this -- images sandwiched between other images are
+    "masked".
+ 
+Primacy of the Subjective
+o The author argues that subjective reports can be trusted, and form the
+  primary data that should be recorded.
+  - In his experiments, he found participants' introspection about whether
+    they perceived an image consistent with their naming/memory abilities.
+  - He concedes that introspection can be problematic, however
+  - Neuroscientists must examine which neurobiological events contribute to
+    subjective experience.
+Chapter 2: Fathoming Unconscious Depths
+ 
+Pioneers of the Unconscious
+ 
+o Many philosophers spoke of the concept that much of our mental processing
+  occurs outside of our consciousness.
+ 
+The Seat of Unconscious Operations
+ 
+o There were many theories regarding what parts of the brain correspond to
+  conscious vs unconscious thought, but it's now known that virtually all
+  regions participate in both types.
+ 
+o Blindsight: patients with lesions on visual cortex behave as though blind in
+  specific parts of visual field, but can still "blindly" point to sources of
+  light (unconscious vision)
+  - Research on patients with brain lesions suggested unconscious images are
+    processed in the cortex
+ 
+The Brain's Dark Side
+ 
+o Subliminal priming:
+  - Flashing subliminal word ("prime") (unconsciously) before another visible
+    item ("target")
+    + When the prime is the same word, the processing of the word is much
+      faster, even when the case of the words is different.
+    + Even though the first word is unconscious, the brain processes the
+      fact that "radio" and "RADIO" are the same word
+    + This experiment demonstrated that the ventral route (which processes
+      the identity of pictures and words) also participates in unconscious
+      processing, thus both routes (ventral and dorsal) can operate below
+      conscious experience
+ 
+Binding Without Consciousness
+ 
+o Previous ideas that consciousness is needed to bind together individual
+  elements of a visual scene disproven by the subliminal priming experiment,
+  as "range" as a prime for "anger" did not have the same effect as "range"
+  as a prime for "range" (meaning the subconscious was able to process and
+  bind the letters in these words).
+ 
+o Behind the scenes, our brains are constantly working to transform the light
+  that enters our retinas into a 3D scene
+ 
+         1         2         3         4         5         6         7         8
+12345678901234567890123456789012345678901234567890123456789012345678901234567890
+ 
+ 
+ 
+Playing Chess Unconsciously
+ 
+o Our brains can, in a fraction of a second, see an image and parse the
+information without our knowledge
+   - A chess expert can have an image of a chessboard flashed before their
+     eyes and have it influence their decision
+   - The optical illusion on page 61 shows how almost instantly, our brain
+     parses the objects in the image and makes sense of it, all unconsciously
+ 
+Seeing Voices
+ 
+o Consciousness isn't even required to fuse visual and auditory signals!
+o McGurk effect:
+   - Video sounds like "da da da". If you close your eyes, it sounds like "ba
+     ba ba". Visually, the mouth says "ga ga ga". The brain unconsciously makes
+     sense of these conflicting signals by combining the sounds.
+   MG> This is astounding to me, simply because even when one tries to hear
+       the correct sound while watching the video, it is near impossible. Even
+       when consciously aware of the effect, we can't prevent our brains from
+       doing this processing!
+o Wolf Singer suggested that there are two types of binding (of information):
+   - Routine bindings that are coded by dedicated neurons committed to
+     specific combinations of inputs
+       + For example, our cortex likely has neurons dedicated to letter
+         strings like "un", "the", and "tion"
+   - Nonroutine bindings spawned by unforeseen combinations (may require a
+     more conscious state)
+ 
+Unconscious Meaning
+ 
+o There has been controversy over whether a word's meaning can be processed
+without consciousness, especially as consciousness and comprehension are so
+ closely connected
+   - "Cocktail party" effect: when you are in a room with dozens of
+     conversations, you can focus in on one conversation, and unattended voices
+     are blocked. However, why is it that if one of those unattended voices
+     says your name, you will hear and respond?
+       + Some believe that your brain unconsciously processes the unattended
+         voices
+       + Others may argue that your consciousness actually switches back and
+         forth very quickly
+   - The author says that the consensus now is that the unconscious mind
+     proposes while the conscious mind selects:
+       + Consider the word "bank", which can be a financial institution or a
+         river bank
+       + When a prime word (like bank) is masked down to the unconscious
+         level, "money" and "water" are primed, meaning our unconscious mind
+         stores all meanings, (while our conscious mind selects)
+ 
+The Great Unconscious Wars
+ 
+o There remained controversy over unconscious semantic processing, but even
+ after taking greater care to make sure experiments were performed well, the
+ results confirmed that words, digits, and pictures can be unconsciously
+ processed
+   - Anthony Greenwald demonstrated that emotion cuold be activated
+     unconsciously (when prime words were congruent or incongruent with the
+     word shown, participants performed better on congruent trials)
+o However, this was later discredited (by Greenwald himself), as the
+ priming, while subliminal, bypassed meaning and had to do more with the
+ shallow association between sets of letters and their corresponding response
+ 
+Unconscious Arithmetic
+ 
+o Dehaene did a similar experiment, but with numbers instead of words. This
+ involved flashing 1, 4, 6, or 9 and then showing a number, and asking whether
+ the number shown is > or < than 5. The invisible numbers caused semantic
+ priming
+   - Whether the prime was 'four' or '4' didn't matter, suggesting that the
+     effect was due to meaning rather than visual shapes
+   - Activity in left and right parietal lobes, the "number sense" regions of
+     the brain, decreased when the same number was displayed twice
+     ("repetition suppression")
+ 
+Combining Concepts Without Consciousness
+ 
+o Brain imaging done on epileptic patients showed that the amygdala (which)
+processes emotion, fires signals for words that were invisible to the patient
+o N400 wave - brain wave that marks the brain's response to an unexpected
+ meaning (whose size corresponds with the degree of absurdity)
+   - This occurs even for words we don't see (because of masking or
+     inattention)
+   - The size of N400 is the same whether the words are conscious or invisible
+o The author concludes that invisible words can elicit activation in meaning
+networks, but unconscious activity is confined to a narrow brain circuit
+ 
+Attentive but Unconscious
+ 
+o Attention doesn't require awareness-our minds are not constantly examining
+ everything around us and deciding what to focus on. Instead, this occurs
+sub rosa, in parallel.
+o This filter is "selective attention"
+   - Loud noises and blinking lights can disrupt this, as they represent
+     dangers
+o "Attention can amplify a visual stimulus and still leave it too weak to
+ break into our awareness" (76)
+MG> I don't quite understand what Dehaene is saying here. How can one focus
+     their attention on something if they can't even see it consciously?
+o Conscious intentions can affect unconscious attention.
+   - For example, if you're shown a set of shapes and told to detect the
+     squares, and a square and circle appear (masked), something called N2pc
+     (a marker of parietal lobe activation) shows an unconscious orientation
+     towards the square
+ 
+The Value of an Invisible Coin
+ 
+o All the stimuli we receive is assigned a value by a set of neural networks
+ within the basal ganglia
+   - In one study, a picture of a penny or a pound coin was subliminally
+     flashed, and although participants couldn't consciously see the image,
+     their actions were influenced based on which image was flashed
+   - Our brains unconsciously monitor the world around us and assign value to
+     things. It is because of these tags that the most relevant events draw
+     our attention
+ 
+Unconscious Mathematics
+ 
+o "We constantly overestimate our awareness--even when we are aware of the
+ glaring gaps in our awareness."
+   - Because we're not aware of our unconscious thoughts, we overestimate the
+     degree to which our conscious thoughts influence us
+o The mathemetician Henri Poincare made certain mathematical discoveries
+ unconsciously - the idea would come to him when his mind was occupied by
+ something else entirely
+   MG> This is not altogether surprising to me. Sometimes the best cure for
+   not knowing a solution to a problem is sleep. I have always wondered how
+   sometimes letting my mind drift elsewhere can be the most useful way to
+   solve a problem that has been bothering me.
+o Dijksterhuis performed an experiment where participants had to choose the
+ best car among four cars based on 12 criteria, and half were allowed to
+ consciously think about their choice, while half were distracted. The
+ "unconscious" decision group picked the best car 60% of the time, while the
+ conscious group picked it 22% of the time.
+   - The author says that some aspects of problem solving are better dealt
+     mostly unconsciously
+   MG> I'm not sure if I'm convinced that these examples show that largely
+       unconscious decision making may sometimes be better. However,
+       anecdotally speaking, I can agree with his statement.
+   - One possible explanation is that the conscious group was too focused on
+     a couple of the criteria, and weren't able to see the big picture, whereas
+     unconscious processes excel at assigning values to many items and
+     averaging them
+o Dehaene provides examples of experiments where the subconscious is  
+   somewhat able to average the number of arrows pointing to the right out of
+   an image containing five arrows even when they aren't consciously able to
+   see the arrows
+ 
+Statistics During Sleep
+ 
+o Dehaene describes an experiment in which participants had to perform a long
+calculation, but there was a pattern in the numbers that, when discovered,
+ allowed them to save time and effort. The researchers found that after a
+ night of sleep, many participants woke up with the shortcut in mind.
+   - During sleep, neurons in the hippocampus and cortex are active, and
+     replay in fast forward the same sequences of activity from periods of
+     wakefulness
+   MG> I wonder if this is the reason why sometimes after performing a
+   repetitive and/or mentally tasking task all day, I have dreams about that
+   doing that same task. It's interesting to consider this phenomenon in terms
+   of the neurons "replaying" the sequences that occurred during the day
+ 
+A Subliminal Bag of Tricks
+ 
+o Psychology has demontrated that subliminal perception exists, and that many
+ processes can run without consciousness
+o Some even argue that the subliminal self may be superior to the conscious
+ self
+   - Many say that the mental operations underlying our decisions are
+     unconscious, and our consciousness is a bystander
+o In the next chapter, Dehaene will refute this "zombie" theory, arguing that
+ consciousness is an evolved feature with a use
+ 
+Chapter 3: What is Consciousness Good for?
+ 
+o Consciousness is stable, while subliminal information is quickly fading.
+Consciousness also compresses information into small, bite sized pieces,
+ whereas subliminal information is large and ever changing
+ 
+o Darwin's ideas about natural selection overturned previous ideas that every
+ feature had a specific function for a specific purpose (teleology)
+   - Several other ideas also go along with this theory:
+       + Spontaneous pattern generation: certain chemical reactions can cause
+         organized features like zebra stripes and melon ribs
+       + Allometric relations: some features that may not seem evolutionarily
+         advantageous, like the Irish elk's huge horns, may have been due to an
+         increase in the overall size of the organism, which would provide
+         evolutionary advantage
+       + Spandrels: features of organisms that don't seem advantageous may
+         have arisen as a byproduct of its architecture (for instance, the male
+         nipple is an outcome of the development of the advantageous
+         female breasts)
+o This means that consciousness cannot be thought of as necessarily having a
+ specific benefit or purpose
+   - Dehaene questions whether consciousness is a mere byproduct
+       + We could perform many of our cognitive functions just as well
+         as unconscious zombies
+       + "User illusion": our feeling of being in control may be fallacious
+   - Dehaene chooses to explore the functionalist view, which is that
+     consciousness is useful, and that it has been selected over millions of
+     years because it serves a role
+ 
+Unconscious Statistics, Conscious Sampling
+ 
+o Dehaene describes our mind's processing as a division of labor: there are
+ myriad levels below that do the tedious work of creating the most complete
+ interpretation of our environment, whereas our consciousness exists a level
+ above, like executives making high level decisions
+   - Consciousness is what allows us to make decisions, and what prevents us
+     from becoming like the donkey that died standing between a pail of water
+     and a stack of hay
+o Bayesian influence: using statistical reasoning in a backwards manner to
+ infer the hidden causes behind our observations
+   - There's a theory that the brain acts in this way (backwards)
+       + In perceiving a plate as a circle, and not an ellipse, for example,
+         the brain has weeded out a vast array of other explanations
+       + Each individual neuron suffers from the "aperture problem" (viewing
+         a stick through a peephole doesn't allow you to see its true motion);
+         however, we do not see this ambiguity, as our brains let us see the
+         most likely interpretations. This process takes time, but we only
+         perceive the end result.
+       MG> Dehaene talks about how this ability of our neurons to agree on a
+           single interpretation disappears when someone is under anesthesia.
+           How do they know this? I wish he'd go into more detail here.
+       + In an experiment showing two superimposed gratings (a visual
+         ambiguity), our perception changes every few seconds. What we see is
+         the most likely interpretation, but other possibilities pop up
+         sometimes, for a duration proportional to their statistical
+         likelihood. "Our unconscious perception works out the possibilities--
+         and then our consciousness samples from them at random." This seems
+         only to occur when conscious attention is focused on the input.
+o Overall theme: unconscious processes are fast and parallel, whereas
+ consciousness is the slow sampler
+ 
+Lasting Thoughts
+ 
+o Working memory: the part of short term memory focused on immediate conscious
+perception and linguistic processing
+   - Associated with the prefrontal cortex
+   - Consciousness may have had a specific evolutionary role: learning over
+     time, rather than just living in the instant
+       + The eye-closure reflex experiment (a loud noise coincides with or
+         is followed by a burst of air to the eye) demonstrates that
+         coincidence based conditioning is unconscious, while memory-trace
+         learning requires being aware of the predictive link
+o The duration of a visible image in our brains is much higher than those made
+invisible by masking (to the point where after around a second, unconscious
+ activation is undetectable)
+   - Only consciousness allows for lasting thoughts
+ 
+The Human Turing Machine
+ 
+o Performing multidigit arithmetic allows us to recite the "algorithm" our
+ minds used. Dehaene says that performing complex strategies using multiple
+ steps (algorithms) is a uniquely evolved function of consciousness
+   - "The conscious brain operates as a biological Turing machine"
+       + He qualifies this by saying that while this applies when the brain
+         is engaged in long calculations, the brain itself is radically
+         different from modern computers
+o While our unconscious minds can access a wide array of information, our
+ conscious brains are needed to act on this information in certain ways
+ (calculations, using certain strategies, etc.)
+   - We need consciousness to rationally think about problems. The
+     unconscious generates hunches, whereas only the conscious can go through
+     step by step
+
+A Social Sharing Device
+
+o Consciousness is a means through which to transfer information between people
+  in a condensed manner
+    - One important component of this communication is the ability to relay our 
+      confidence in/the reliability of our knowledge
+        + This helps us to make decisions (through weighing each source of 
+          information by reliability), and compare our knowledge with others to 
+          perform collective decision making
+    - The brain contains structures that accumulate our self-knowledge and
+      information about others, representing "onself as another"
+      MG> I wonder if this is in any way related to the question posed about 
+          "I" being ambiguous. On a (somewhat) related note, many times I find
+          myself in my inner dialogue talking to myself in the second person, as
+          if I were another person talking to myself. In that sense I could see 
+          the usage of "I" being a little off as well.
+
+Chapter 4: The Signatures of a Conscious Thought
+
+o In 1990, fMRI technology allowed the brain's activity to be observed by
+  tracking red blood cell movement through hemoglobin molecules
+    - Electroencephalography recording of brain waves also provide recordings of
+      brain activity
+
+The Avalanche of Consciousness
+
+o In multiple experiments, when the conscious threshold was passed, brain 
+  activity surged in higher visual centers (behaving like a sort of avalanche)
+    - When crossing the conscious threshold, an amplification of brain activity
+      occurs, progressively gathering strength and invading multiple regions of 
+      the brain including the parietal and prefontal circuits (signature 1)
+
+Timing the Conscious Avalanche
+
+o In 1995 Dehaene performed an experiment where he was able to isolate the
+  timing of CON
+    - Words were flashed at the exact moment of attentional blink, such that
+      viewers missed half of the words. This allowed Dehaene to observe the 
+      differences in brain waves between words where CON was achieved or wasn't
+    - Around 200-300ms after the onset, brain activity in unconscious trials 
+      faded, while in conscious trials it progressed to the front of the brain, 
+      producing an avalanche that is picked up by markers, known as the P3 wave
+      (signature 2)
+o Whenever the parietal and prefontal lobes are processing a stimulus, they
+  then can't process a second. Sometimes we do perceive it, but after a delay.
+  This is the PRP (that is examined in the 2010 Marti et al. paper)
+
+Consciousness Lags Behind the World
+
+o Our consciousness lags by at least 1/3 of a second, moreso when we are 
+  distracted. However, we have certain mechanisms that help us cope with this:
+    - Sometimes we act on "auto-pilot", like when our finger retracts from a 
+      hot surface before we're consciously aware of it
+    - Anticipation: we perceive predictable stimuli sooner than unpredictable
+      ones
+o In cases where people are told to move their eyes away from a flash of light
+  (counter to the usual reaction), at first, their eyes are magnetically 
+  attracted to the light. Only after this initial response does the conscious
+  response occur, a response indistinguishable from the aforementioned P3 wave.
+
+Isolating the Conscious Moment
+
+o To fully isolate CON and equalize all other factors, a trial must equalize
+  the stimuli and responses, such that everything is identical except the 
+  subjective feeling of conscious vision
+    - Salti did just that, and confirmed that the P3 wave is a signature of
+      conscious access
+        + Utilized blind sight - responses where they were unaware of any
+          stimuli, but still responded correctly - this meant that the stimuli
+          and response was the same. The only difference was the P3 wave,
+          which was much larger on conscious trials
+
+Igniting the Conscious Brain
+
+o "Global ignition" - the term for the large-scale activity pattern response
+  in the brain to stimuli
+    - Neurons excite one another in a similar manner to the way applause bursts
+      from a crowd, and once the excitation exceeds a threshold, it becomes
+      self-reinforcing, meaning neurons excite other neurons that return the 
+      excitation
+o Dehaene performed an experiment varying the SOA between a short stimuli
+  followed by a mask of random letters. As the SOA increased continuously,
+  visibility did not increase continuously; instead there was a threshold of 
+  50 ms. The P3 wave once again corresponded with reports of CON
+
+Deep Inside the Conscious Brain
+
+o Experiments on epileptic patients confirmed this "global ignition" theory
+    - Unconscious information is confined to a narrow circuit, whereas conscious
+      information is distributed to larger areas for extended periods. Conscious
+      words resulted in gamma rhythms (high frequency oscillations) persisting 
+      much longer than unconscious words (signature 3).
+
+The Brain Web
+
+o Fourth signature: massive synchronization of electromagnetic signals across
+  the cortex
+    - This synchronization allows for the facilitation of information spread
+    - While invisible images create only temporary synchrony, conscious images
+      create an exchange of reciprocal signals called a "brain web"
+
+The Tipping Point and Its Precursors
+
+o Summary:
+    - Conscious perception is a result of a wave of neuronal activity, exceeding
+      the cortex's threshold for ignition
+    - This causes an avalanche of activity, igniting many regions to a state
+      (consciousness) ~300ms after onset
+    - The frontal regions of the brain are informed of sensory input in a bottom
+      up manner, but sending projections in a top-down manner
+    - The result is a "brain web" of synchronization with distributed activation
+      in the frontal and parietal lobes, a P3 wave, gamma-band activation, and 
+      synchronization across long distances
+o Dehaene distinguishes between factors that correlate with CON (such as those
+  signals that occur as early as 100ms after the stimulus onset, or even those 
+  that appear beforehand), and those that actually play a hand in CON
+
+Decoding a Conscious Thought
+
+o Dehaene strives to separate "conscious code" from the "bells and whistles" 
+  that are associated, which contains a full record of a person's experience
+  - Our cortex takes all of the jigsaw puzzle pieces of information we receive
+    and puts it together to make the smooth, unified world we perceive
+    + This suggests that early visual responses can't contain the conscious 
+      code, as processing must occur beforehand. This is likely why the 
+      signatures of consciousness occur so late, and the "conscious code" is 
+      likely within later brain activity
+o Neuroscientist Quian Quiroga and his colleagues discovered neurons that
+  react to specific images, places, or people, and that are activated only 
+  when CON is achieved. 
+  - Itzhak Fried developed electrodes that can record individual neurons
+    + They found individual neurons can be selective to certain images. For 
+      instance, there can be a single neuron that responds to Bill Clinton
+    + At all times, millions of cells in the anterior temporal lobe are 
+      activating in response to the scenes we see, forming the "code" that 
+      Dehaene is looking for
+    + These cells fired only when CON was achieved
+    + These cells allowed for the subjective state of the mind to be derived 
+      from its objective state
+    MG> Perhaps I'm overestimating the importance of these findings, but it
+        seems astonishing to me that these neuron firings that are able to 
+        correlate exactly to an image/idea, and only when CON is achieved. It 
+        seems to be exactly what Dehaene and others previously mentioned have
+        been looking for, and to be frank I'm surprised it took Dehaene this 
+        long to mention this topic. As well, I'm still a little confused about
+        how the researchers would go about locating a neuron that corresponds
+        with, for instance, the TV show the Simpsons. 
+    + Dehaene quickly qualifies his statements by saying that no single cell
+      is responsible for a conscious thought. Instead, millions of neurons 
+      discharging together form macroscopic brain potentials that can be 
+      picked up by electrodes (even outside the skull).
+o The posterior cingulate region (an integration area located in the midline
+  parietal cortex) contains activity that is stable over time, reproducible, 
+  and demonstrates invariance over superficial changes:
+  - The neural activity in this region evoked by a visual stimulus remains 
+    stable even when the subject's eyes move
+
+Inducing a Hallucination
+
+o For these neurons to be fully considered a signature of consciousness,
+  they must be shown to cause such consciousness (i.e. inducing such activity
+  should cause our brains to create such visualizations)
+  - This occurs when we dream, but this is still not causative
+  - Two methods to stimulate the brain:
+    + TMS, or transcranial magnetic stimulation. A battery delivers current that
+      induces a magnetic field generating a discharge in the cortex. 
+      - TMS can disrupt perception or even cause illusory experiences, 
+        demonstrating a link between brain activity and conscious experience.
+    + Stimulate neurons directly with electrodes placed inside the brain. 
+      - Patients saw and heard vivid images and scenarios when neurons were
+        stimulated. Depending on the location stimulated, these hallucinations 
+        changed.
+      - Local stimulation is not enough to achieve CON- the induced activity 
+        must diffuse to higher cortical centers, creating the global brain web 
+        that seems to cause CON
+
+Destroying Consciousness
+
+o In theory, by tampering with the global brain web, CON should be eradicated
+  - This was demonstrated in an experiment using a dual TMS, in which one 
+    pulse's effect was eradicated by a second pulse afterwards, showing that 
+    the initial pulse itself didn't cause CON, and that the activation loop must
+    reach the primary visual cortex before being perceived
+o Dehaene discusses loops forming consciousness
+  - A local loop occurs when area A speaks to area B, and B speaks back to A
+  - Long distance or global loops bring in prefrontal and parietal regions
+    + Dehaene believes these long distance loops result in CON
+
+A Thing Which Thinks
+
+o While science is far from able to recreate any scene in one's mind just by 
+  stimulating exactly the right regions of the brain, Dehaene believes it may
+  not be that far off. 
+  - Scientists motivated by the desire to restore functions in blind and
+    paralyzed people continue to progress
+
+--- BEGIN Dehaene's mentions of Libet
+o Dehaene does not cover Libet's experiment in depth, but discusses them in 
+  relation to other topics:
+  - On page 128, Dehaene discusses the fact the P3 wave (a signature of 
+    consciousness) arises quite late after the stimulus
+    + Under the Notes section, Dehaene discusses how Libet was the first to 
+      discuss the idea that consciousness is delayed
+      - Libet found that early event-related potentials are present on 
+        unconscious trials
+      - Dehaene says that Libet took his interpretations too far, citing his 
+        mental fields and backwards time mechanism ideas
+--- END Dehaene's mentions of Libet
+
+Chapter 5: Theorizing Consciousness
+
+o The signatures of consciousness above do not explain why the firing of 
+  neurons might cause the perception of color, or motion. A framework explaining
+  how mental events relate to brain activity and objective measurements is 
+  needed.
+o Developing a theory explaining how the brain leads to the mind requires 
+  similar scientific efforts as those leading to our current understanding of
+  matter
+  - Dehaene and colleagues' global neuronal workspace theory aims to explain 
+    how consciousness arises from the brain activity and why it exhibits the 
+    aforementioned signatures of consciousness
+
+Consciousness is Global Information Sharing
+
+o Global neuronal workspace theory: consciousness is brain-wide information 
+  sharing
+  - A piece of information becomes conscious when it is stored in a specific 
+    area that makes it available to the rest of the brain and high level 
+    decision systems. This global workspace allows the brain to select relevant 
+    information and disseminate it according to our goals (name it, 
+    evaluate it, report on it etc.), long after the stimuli is over
+  MG> It seems that Dehaene is not defining consciousness as clearly as 
+      Tononi did. Would a computer model of the brain, that had a component
+      that allowed a piece of information to be spread around to different
+      areas of the model, be considered conscious?
+  - This idea is built upon a multitude of earlier proposals from 
+    philosophers and psychologists. 
+    + Hippolyte Taine proposed a theater of consciousness that allows us to 
+      hear only a single actor, with a massive support staff backstage. 
+      - Problem with this theory: who is the audience? -> homunculus fallacy
+      - Important concept: the "limited-capacity channel", or bottleneck,
+        of consciousness (supported by attentional blink and the PRP)
+    + Bernard Baar's version of the workspace model: the audience of the 
+      workspace is not a little person, but other unconscious processors 
+      that receive the broadcast message and act upon it, with collective 
+      intelligence rising from the broad exchange of messages
+    + Another metaphor: consciousness is a high-level supervision system that 
+      controls the flow of information in the rest of the nervous system, and
+      information becomes conscious whenever represented in this system
+      - Not completely correct: some unconscious stimuli can partially trigger
+        inhibitory or regulatory functions of supervisory system
+      - Information reaching the conscious workspace is capable of regulating 
+        our thoughts. What we are aware of drives our decisions -> feeling of 
+        being in control
+
+Beyond Modularity
+
+o Implementing and reproducing the functioning of the brain in silicon 
+  is not impossible in theory, but very difficult
+  - Software is modular, and what is inside module cannot be shared with others
+  - The human cortex has modular processors (sectors dedicated to a specific 
+    process), but consciousness may have evolved to mitigate this modularity, 
+    to share it across modules in the brain
+    + Evolutionary advantage: decisions must use multiple sources of knowledge
+
+An Evolved Communication Network
+
+o The brain is made of elongated cells (neurons) with long axons, measuring
+  up to meters in size
+  - A neuron can send information to distant areas of the spinal cord to 
+    move specific muscles
+  - The cortex, the mantle forming the brain's surface, is made of dense 
+    long-distance projection cells. Nerve cells shaped like pyramids 
+    group their axons together to form cables that crisscross and send sensory
+    information to a network of parietal, temporal, and prefrontal regions
+o Not all areas of the brain are equally well connected
+  - The visual area V1 establishes a small set of connections, primarily with 
+    neighbors, so that early visual operations are encapsulated
+o In the prefrontal cortex, neurons with long-distance axons connect to 
+  parietal, temporal, and posterior areas. These regions are hubs of brain 
+  connections
+  - These regions are also connected to areas like the thalamus (involved with 
+    attention and synchronization), basal ganglia (decision making), and the 
+    hippocampus (memorization)
+o This network of interconnected brain regions, involving primarily the 
+  prefrontal and parietal lobes, is the same region that constitutes the first
+  signature of conscious processing
+  + The activation of these regions whenever a piece of information becomes
+    conscious may be due to their long-distance connectivity that allows for the 
+    broadcast of messages across long distances 
+  + The pyramidal neurons in the prefrontal cortex are larger than in the
+    sensory cortex, and the layers II and III of the prefrontal cortex are 
+    thicker
+    - Dendrites in the prefrontal cortex, responsible for receiving information
+      at a synapse, are much larger in the prefrontal cortex than in 
+      posterior regions of the brain
+    - The FoxP2 gene with mutations specific to the Homo lineage, is associated 
+      with speech, and also includes genes responsible for building 
+      neurons, dendrites, axons, and synapses
+      + Human prefrontal neurons, due to FoxP2, may have around fifteen thousand
+        spines, meaning they could be communicating with that many other neurons
+      + This arrangement seems like it could allow information to be broadcast
+        anywhere in the brain, should it be deemed important enough to enter
+        the global neuronal workspace
+
+Sculpting a Conscious Thought
+
+o How does the neuronal workspace store the endless possibility of conscious
+  thoughts/states?
+  - The combinations of active and inactive neurons must be able to form 
+    billions of different patterns
+  - In 1949, Donald Hebb proposed the 'cell-assembly' idea, in which sets of 
+    neurons remain activated long after external stimulus is gone. These 
+    neurons form a closed system in which the neurons send each other 
+    excitatory pulses. The possibility of many different local assemblies 
+    in different places in the brain mean that billions of states can be 
+    represented.
+  - In 1959, John Selfridge introduced the "pandemonium" metaphor, in which 
+    a hierarchy of "daemons", each of which proposes an interpretation of 
+    an incoming image, each shouts their interpretation, allowing the 
+    decision system to form an opinion on the incoming image
+    + For example, three daemons shouting for the presence of eyes, nose, and
+      hair would excite a fourth daemon coding for a face
+    + In actuality, neural systems do not simply work in a feed-forward manner-
+      the cortex contains bidirectional projections and loops (interconnected 
+      neurons form cell assemblies like Hebb proposed)
+  - These recurrent networks/cell assemblies converge to a consensus, creating
+    a unified interpretation and suppressing alternate interpretations, 
+    removing noisy bits and restoring missy bits of an image 
+    + This has been called a "neural coalition" by Crick and Koch, the "perfect
+      vehicle for conscious representation"
+      - When processing images, we do not perceive the components separately, 
+        even though they are initially processed by a distinct group of neurons
+
+o How do the distinct portions of an image (processed separately) get 
+  attached to one another to form the single image we perceive?
+
+Simulating a Conscious Ignition
+
+o While the metaphorical vision of global neuronal workspace theory helps our 
+  intuition about what consciousness is, a mathematical theory should 
+  replace it
+  - Changeux and Dehaene have begun to develop simulations of neural networks
+    that capture CON
+    + They created a model that uses equations to mimic the spiking of nerve 
+      cells, with each neuron having synapses and parameters representing 
+      major types of receptors for neurotransmitters in the brain, and with 
+      neurons organized into neuronal columns similar to those existing 
+      biologically. The model also included a small thalamus connected to 
+      cortical locations, generating a model of the thalamocortical column, that
+      was then connected into long-distance brain networks. The model could 
+      distinguish between 2 perceptions (oversimplification), and created
+      a simple global workspace with feed-forward and feedback connections
+      with multiple scales
+      - The model exhibited many physiological properties seen in real 
+        experiments (i.e. the signatures of CON):
+        + Global ignition- when stimulated, the stimuli went moved up the 
+          cortical hierarchy, causing sustained activation, and capturing the 
+          essence of how the brain forms a long-lasting representation of a 
+          piece of information 
+        + Most simulated neurons showed a late/sudden increase in currents
+          received, with excitation proceeding forward but also back to the 
+          original areas that started it
+        + Gamma fluctuations- the ignited states led to reverberation of 
+          neuronal activity, with the net effect of an increase in oscillatory 
+          fluctuations, with a peak in the gamma range
+        + At the time of global ignition, spikes became coupled and synchronized
+          among neurons coding for conscious representation
+      MG> I'm curious as to whether Dehaene considers this model to be 
+          conscious, given that it seems to exhibit the signatures of
+          consciousness. (If I had to guess, I'd say Dehaene wouldn't call this
+          conscious.) I wish Dehaene would state this more explicitly, and 
+          say more about what an actual conscious computational model would 
+          have to do, in more detail than just saying that the brain is more 
+          complicated than their model.
+  - The simulation showed conscious access corresponds to a phase transition
+    from an ongoing state of low spontaneous activity to a temporary moment of
+    elevated activity and synchronized exchanges
+    + The simulation also fits well with the idea that there is a threshold
+      for consciousness, delineating subliminal thoughts from conscious ones
+      - Unconscious processing = neuronal activity that doesn't trigger global 
+        ignition
+      - CON = the sudden transition to a higher state of synchronization
+  - The simulation also modeled another phase transition-the "awakening" of the 
+    entire network- each pyramidal neuron received a vigilance signal 
+    summarizing the effects of acetylcholine, noradrenaline, and seratonin
+    + A low vigilance signal decreased spontaneous activity and the ignition 
+      property disappeared, so the system behaved like a sleepy or sedated brain
+    + A higher vigilance signal caused an electroencephalogram to emerge, and 
+      ignition reappeared 
+
+****************** END Dehaene's book: Consciousness and the Brain ********
