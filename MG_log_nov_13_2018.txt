@@ -1948,7 +1948,9 @@ o Dehaene argues that too many neuroscientists ignore the importance of
 A Catalog of the Unconscious
 
 o GNWT can help to provide a taxonomy of the unconscious (which as mentioned
-  before, describes a large majority of the brain's operations)
+  before, describes a large majority of the brain's operations). These 
+  categories include preconscious, subliminal, disconnected patterns, 
+  micropatterns, and latent connections
   - Inattentional blindness (such as the gorilla, or being able to ignore the
     ticking of a clock when focused on another task) is categorized as 
     preconscious
@@ -1991,4 +1993,65 @@ o GNWT can help to provide a taxonomy of the unconscious (which as mentioned
           movement of our chests. I would assume that when we become "aware" of
           our blinking, it must also be through a separate pathway than that 
           which usually controls our blinking.
+    + In our brains, hundreds of neuronal signals travel throughout brain 
+      modules without reaching awareness
+  - Neural information can be diluted within a complex pattern of firing
+    + When a stimulus, such as a visual grating that flickers extremely fast, is
+      not brought to our awareness, it's likely due to the tangled 
+      spatiotemporal pattern of firing in the visual area, which becomes 
+      too complex for the GNWT neurons to recognize
+      - Information needs to be re-encoded in an explicit form by a compact 
+        assembly of neurons, and if information is too diluted, it 
+        can't be made conscious
+      - All information begins like this, but we only become aware of 
+        information once higher-level brain areas categorize it. This means that 
+        the brain contains information that we ignore, and computer-assisted 
+        brain decoding could allow for a heightened sense of surroundings
+  - Latent connections store the type of unconscious knowledge. Large amounts of
+    information are stored in quiescent synaptic connections, which are formed 
+    and destroyed as we grow and on a daily basis. Each synapse stores how
+    likely the presynaptic neuron is to fire into the postsynaptic one. 
+    The strength of such connections are the foundation of unconscious 
+    intuitions like sight, auditory and motor skills, and in the hippocampus, 
+    episodic memories are stored.
+    + Memories lay dormant, compressed into a distribution of synaptic spines
+      in a format that is different than conscious thought, thus this 
+      information can't be accessed directly. During memory retrieval, 
+      the synapses promote a reenactment of a precise firing of neurons. 
+      Before memories become conscious, they must be transformed into activity 
+      patterns invading the prefrontal cortex and interconnected cingulate 
+      regions, supporting the GNWT.
+    + This distinction between latent connections and active firing can explain 
+      why we're unaware of grammatical rules that allow us to process speech: 
+      language networks allow us to process words and phrases, but the format 
+      is the wrong format for CON.
+      - This is in striking contrast to the way we perform arithmetic, which is
+        supremely conscious and involves the key nodes of the workspace network
+        (the prefrontal, cingulate, and parietal areas). 
+      - Grammar is implemented by connections linking the left superior temporal
+        lobe and inferior frontal gyrus, rather than the areas of the workspace
+        network.
+
+Subjective States of Matter
+
+o Summary: GNWT says that to be conscious, information must be encoded as an 
+  organized pattern of activity in higher cortical regions, and this region 
+  must ignite a ccircle of interconnected areas forming the global workspace.
+  These account for the signatures of consciousness described earlier.
+o The simulations of the brain are capable of reproducing CON, but the 
+  simulation itself is far from conscious. Dehaene does believe that this is
+  possible, and that such a conscious simulation would likely have billions 
+  of neuronal states and be able to make statistical inferences such as 
+  computing the likelihood a face is present
+o Decisions arise through the accumulation of evidence, as a subset of neurons
+  collapse into a single interpretation, leading to an internal decision
+o External inputs are only part of this "machine" that is the brain, as 
+  autonomy generates goals and shape the rest of brain activity top-down, and 
+  constant neuronal activation moves our conscious thoughts around
+o Dehaene describes efforts to create a massively parallel machine based on 
+  neuronal principles, and belives that within the next decade we'll be able 
+  to use computational tools to make progress in our understanding of how 
+  brain states affect conscious experience.
+
+  Chapter 6: The Ultimate Test
 ****************** END Dehaene's book: Consciousness and the Brain ********
