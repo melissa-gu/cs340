@@ -2065,5 +2065,49 @@ o The science of consciousness can potentially help determine whether a
 
 How to Lose Your Mind
 
-o 
+o Dehaene begins by defining the different types of neurological disorders of 
+  consciousness
+  - Coma: caused by head trauma, stroke, anoxia (lack of oxygen supply to the 
+    brain), and poisoning, a coma is clinically defined as a prolonged loss of 
+    the capacity to be roused
+  - Brain dead: total absence of brain stem reflexes, with a flat EEG and 
+    inability to initiate breathing
+    + This state is irreversible, as cortical and thalamic neurons degenerate, 
+      erasing life long memories
+  - Vegetative: living a physical life devoid of intellectual activity or 
+    social intercourse
+    + Bodily functions such as temperature, heartrate, etc. are generally 
+      in tact, and the patient is not immobile
+  - Minimally conscious: consciousness may fluctuate broadly, even within a few
+    hours
+    + Patients may respond to verbal orders by blinking or express emotions
+
+o Why is a coma different than being brain dead?
+  - The body exhibits coordinated reactions- pupil dilation, gagging: the 
+    unconscious circuitry is in working order
+  - The EEG continues to fluctuate similar to those in a deep sleep. Some even 
+    show high-frequency theta and alpha rhythms. 
+  - Most coma patients regain consciousness
+  - In some cases, patients are wakeful but not aware- known as unresponsive
+    wakefulness
+
+o Neuropsychologist Joseph Giacino created the Coma Recovery Scale, which 
+  is a series of objective tests applied in a controlled manner assessing 
+  simple functions
+  - This allows for greater accuracy in distinguishing between a vegetative 
+    patient and a minimally conscious one, as well as better anticipation of 
+    whether recovery is possible
+
+Cortico Ergo Sum
+
+o In 2006, British neuroscientist Adrian Owen published a description of 
+  a condition worse than locked in syndrome, where a patient with the clinical 
+  signs of a vegetative state had brain activity suggesting a considerable 
+  degree of consciousness
+  - This discovery, while horrifying, was also hopeful: brain imaging could 
+    detect the presence of a conscious mind, and even reconnect it to the 
+    outside world
+    + A twenty-three year old women suffered bilateral damage to frontal 
+      lobes, and remained fully unresponsive. However, her cortical language
+      network was found to be fully active in a series of fMRI exams
 ****************** END Dehaene's book: Consciousness and the Brain ********
