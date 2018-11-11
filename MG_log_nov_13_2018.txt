@@ -1782,6 +1782,59 @@ o How does the neuronal workspace store the endless possibility of conscious
 
 o How do the distinct portions of an image (processed separately) get 
   attached to one another to form the single image we perceive?
+  - Formation of global assembly, or "convergence zones", in the prefrontal 
+    cortex, as well as the anterior temporal lobe, inferior parietal lobe, and a
+    midline region called the precuneus, which send and receive projections 
+    to and from a variety of brain regions, allowing the brain to converge 
+    onto a single coherent interpretation. This interpretation might 
+    be broadcast to areas where the sensory signal arose. This global 
+    broadcasting results in the emergence of a single integrated and 
+    differentiated state of consciousness.
+    + This back-and-forth communication is called "reentry"
+    MG> I'm not sure why this would be called reentry- is it the fact that 
+        the interpretation is broadcast back to the sensory areas? I don't 
+        quite understand what is "reentering."
+
+The Shape of an Idea
+
+o Dehaene's global neuronal workspace theory builds upon the ideas of the last
+  section, proposing that a conscious state is encoded by the stable 
+  activation of a subset of workspace neurons distributed in many brain areas,
+  which exchange messages, and that CON is achieved when the messages converge 
+  to a single interpretation
+  - Neuronal synchrony is a key piece of this. Although in the absence of 
+    consciousness, cell assemblies might synchronize locally, only with the 
+    prefrontal cortex can the message be shared broadly and become conscious
+o At any given moment, a single object of thought becomes the focus of our
+  consciousness, and all the relevant neurons activate. The neurons that are 
+  silent also encode information, signaling that their preferred feature is 
+  not present
+  MG> We discussed in our last meeting the fact that in Woody, the '0' bit 
+      has just as much meaning as a '1' bit. This is very similar- an inactive
+      neuron conveys information about the idea encoded by the state of the 
+      brain, just as an activated neuron does.
+o This idea of active and inactive neurons can also help explain the second
+  signature of consciousness, the P300 wave, which is the large positive 
+  voltage that peaks at the top of the scalp. Active neurons send signals down
+  their long axons, where most of them meet inhibitory neurons that suppress 
+  signals which encode for irrelevant things.
+  - The layout of the cells is such that in active neurons, signals travel from
+    superficial dendrites inwards to the cell bodies. These neurons are parallel
+    to each other, such that their electrical currents add up, creating a 
+    negative region. However, the inhibited neurons, which are much more 
+    dominant, create a positive potential, and the positive voltages form a 
+    large positive wave above the head- the P300 wave. 
+  MG> This explains so much more about why and how the P300 wave occurs. Before
+      Dehaene made this clear, it was quite hard to connect this abstract idea 
+      a wave of a certain frequency with CON. Knowing the mechanism behind it
+      is extremely helpful in both conceptualizing and understanding this 
+      second signature.
+  - The P300 indicates what the current thought is not about, which is why it 
+    is strong and reproducible.
+    + Vogel and colleagues experimentally showed negative voltages that 
+      corresponded with the contents of working memory. These voltages 
+      lasted as long as the objects were kept in mind, and increased when more
+      objects were added to memory.
 
 Simulating a Conscious Ignition
 
